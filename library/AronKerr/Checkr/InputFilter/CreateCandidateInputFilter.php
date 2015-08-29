@@ -139,7 +139,6 @@ class CreateCandidateInputFilter extends InputFilter
                 array('name' => 'StringToUpper')
             ),
             'validators' => array(
-                array('name' => 'digits'),
                 array(
                     'name' => 'StringLength',
                     'options' => array(
